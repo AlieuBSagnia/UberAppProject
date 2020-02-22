@@ -24,7 +24,7 @@ Your job is to create working development, testing and production environments a
 - (Optional Task) Have Jenkins use the new AMI to make a instance - :red_circle:
 
 ## How to Install :computer:
-- To begin, clone the GitHub repository [HERE](https://github.com/ARLeslie95/UberAppProject)
+- To begin, clone the GitHub repository [HERE](https://github.com/alieubsagnia/DEMO_AWS)
 - Navigate into the UberAppProject file and run `berks vendor cookbooks`
 - Now run `vagrant up` to start the application.
 - Open your internet browser and type [http://development.local](http://development.local)
