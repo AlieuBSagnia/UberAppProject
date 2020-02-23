@@ -5,21 +5,20 @@ Uber app that uses their external API. It is built in Python using flask. The jo
 
 https://github.com/uber/Python-Sample-Application
 
-The Pipeline Solution
+__The Pipeline Solution__
+- The Chef tool was used to provide the solution.
+- We developed a Python and Nginx cookbook to meet application dependencies which was added to the wrapper cookbook and configured application dependencies by calling a requirements.txt file.
+- When the user runs ```Vagrant up``` the application starts running in dev.
+- Configured Jenkins to run tests and place on the master branch.
+- Packer was used to create an Amazon Machine Image (AMI) image and deploy the application on a Cloud Environment.
 
-The Chef tool was used to provide the solution.
-We developed a Python and Nginx cookbook to meet application dependencies which was added to the wrapper cookbook and configured application dependencies by calling a requirements.txt file.
-When the user runs Vagrant up the application starts running in dev.
-Configured Jenkins to run tests and place on the master branch.
-Packer was used to create an Amazon Machine Image (AMI) image and deploy the application on a Cloud Environment.
-The above solution completes the whole CI/CD/CD pipeline.
+The above solution completes the whole CI/CD/CD pipeline. 
 
-How to install and use
-
-Clone this repository using git clone
-Go into the named folder
-Run Vagrant Up
-Go to development.local and you will see the web app
+__How to install and use__
+- Clone this repository using git clone
+- Go into the named folder
+- Run ```Vagrant Up```
+- Go to development.local and you will see the web app.
 
 ## Progress :hourglass_flowing_sand:
 - Create Nginx cookbook - :white_check_mark:
